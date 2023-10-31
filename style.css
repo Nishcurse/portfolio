@@ -19,14 +19,15 @@ body {
 }
 
 .container {
-  padding: 10px 10%;
+  padding: 0;
+  
 }
 
 nav {
   display: flex;
   align-items: flex-start;
-  position: absolute;
-  left: 0;
+  position: relative;
+  right: 0;
   top: 0;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -34,9 +35,13 @@ nav {
 }
 .logo {
   width: 540px;
+  position: relative;
+  left: 0;
 }
 nav ul {
   margin-top: 60px;
+  position: absolute;
+  right: 0;
 }
 
 nav ul li {
@@ -67,9 +72,10 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
-  margin-left: 0;
+  margin-top: 5%;
+  margin-left: 5%;
   font-size: 30px;
+  /* padding: 10px 10%; */
 }
 
 .header-text h1 {
